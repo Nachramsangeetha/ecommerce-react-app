@@ -1,0 +1,167 @@
+/* Page background */
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login card */
+.login-card {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.login-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.login-card .form-control {
+  height: 45px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Focus effect */
+.login-card .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+/* Checkbox */
+.login-card .form-check-label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Forgot password */
+.forgot-link {
+  font-size: 13px;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Login button */
+.login-btn {
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Bottom text */
+.login-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-footer a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Page background */
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Register card */
+.register-card {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.register-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.register-card .form-control {
+  height: 45px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Focus effect */
+.register-card .form-control:focus {
+  border-color: #198754;
+  box-shadow: none;
+}
+
+/* Checkbox */
+.register-card .form-check-label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Register button */
+.register-btn {
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Footer */
+.register-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.register-footer a {
+  color: #198754;
+  text-decoration: none;
+}
+
+.register-footer a:hover {
+  text-decoration: underline;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* top-left */
+  gap: 10px;
+  margin: 10px; /* optional spacing from top-left */
+}
+
+.search-bar select {
+  padding: 6px;
+}
+
+.search-bar input {
+  width: 200px; /* adjust if needed */
+}
